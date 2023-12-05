@@ -7,6 +7,7 @@ const ShowAndHideTitle = () => {
         <div>
             <button onClick={() => setState(!state)}>show/hide</button>
             {state&& <p>Show and Hide Title</p>}
+            <p>changes in sshow nad hide</p>
         </div>
     )
 }
